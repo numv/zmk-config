@@ -57,7 +57,6 @@
                   &kp LGUI &lt LYLow BSPC &kp SPACE   &hm LALT RET &lt LYRais SPACE &tog LYGame 
                         >;
                 };
-        };
 
                 lower_layer {
 // -----------------------------------------------------------------------------------------
