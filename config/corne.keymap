@@ -57,9 +57,6 @@
         lower_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     | OUT_TGL |   |     | home | end |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
 &kp DEL    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5        &kp N6    &kp N7         &kp N8       &kp N9     &kp N0  &kp BSPC
@@ -87,8 +84,8 @@
         function_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  f1  |  f2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+            // | BTCLR|     |     |     |     |     |   | LFT | DWN |  UP | RGT |     |      |
+            // | SHFT |     |     |     |     |     |   | BTC | BT0 | BT1 |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
