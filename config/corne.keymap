@@ -67,10 +67,10 @@
 
         macro {
             bindings = <
-&trans  &mkp LCLK       &mmv MOVE_UP    &mkp LCLK        &mkp RCLK       &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans          &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans           &msc SCRL_DOWN  &msc SCRL_UP    &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans           &trans          &mkp LCLK       &trans  &trans  &tog 0
+&trans  &mkp LCLK       &mmv MOVE_UP    &mkp LCLK        &mkp RCLK     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp LCLK     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans          &msc SCRL_DOWN   &msc SCRL_UP  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans           &trans        &mkp LCLK    &trans  &trans  &trans
             >;
         };
 
